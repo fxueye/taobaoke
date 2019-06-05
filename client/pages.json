@@ -1,0 +1,323 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							"text": "桔子精选",
+							"width": "88px",
+							"fontSize": "20px",
+							"color": "#fff",
+							"float": "left",
+							"background": "rgba(0,0,0,0)"
+						}, {
+							// "type":"favorite",
+							"fontSrc": "/static/iconfont.ttf",
+							"text": "\ue62c",
+							"width": "40px",
+							"fontSize": "22px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "短裤短袖女装",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/hot/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "推荐",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							// "type":"favorite",
+							"fontSrc": "/static/iconfont.ttf",
+							"text": "\ue62c",
+							"width": "40px",
+							"fontSize": "22px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "短裤短袖女装",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tag/index",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							// "type":"favorite",
+							"fontSrc": "/static/iconfont.ttf",
+							"text": "\ue62c",
+							"width": "40px",
+							"fontSize": "22px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "短裤短袖女装",
+							"disabled": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/activity/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							// "type":"favorite",
+							"fontSrc": "/static/iconfont.ttf",
+							"text": "\ue62c",
+							"width": "40px",
+							"fontSize": "22px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						"type": "transparent",
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							// "type":"favorite",
+							"fontSrc": "/static/iconfont.ttf",
+							"text": "\ue660",
+							"width": "40px",
+							"fontSize": "22px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/center/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						"titleColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/center/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						"titleColor": "#fff"
+					}
+				}
+			}
+		}, {
+			"path": "pages/search/index",
+			"style": {
+				"scrollIndicator":"none",
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText": "搜索",
+				"app-plus": {
+					"titleNView": {
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							"fontSrc": "/static/uni.ttf",
+							"text": "搜券",
+							"width": "auto",
+							"fontSize": "18px",
+							"color": "#fff"
+						}],
+						"searchInput": {
+							"backgroundColor": "#fff",
+							"borderRadius": "6px",
+							"placeholder": "短裤短袖女装",
+							"autoFocus": true
+						}
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/good/detail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							"type": "share",
+							"fontSize": "28px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/web/index",
+			"style": {
+				"navigationBarTitleText": "领券购买",
+				"app-plus": {
+					"scrollIndicator":"none",
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							"type": "share",
+							"fontSize": "28px",
+							"color": "#fff"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/center/footprint",
+			"style": {
+				"scrollIndicator":"none",
+				"navigationBarTitleText": "我的足迹",
+				"app-plus": {
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff",
+						// "backgroundColor": "#007AFF",
+						"buttons": [{
+							// "type":"favorite",
+							"fontSrc": "/static/iconfont.ttf",
+							"text": "\ue603",
+							"width": "40px",
+							"fontSize": "22px",
+							"color": "#fff",
+							"background": "rgba(0,0,0,0)"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/center/setting",
+			"style": {
+				"scrollIndicator":"none",
+				"navigationBarTitleText": "设置",
+				"app-plus": {
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff"
+						// "backgroundColor": "#007AFF",
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/center/about",
+			"style": {
+				"scrollIndicator":"none",
+				"navigationBarTitleText": "关于我们",
+				"app-plus": {
+					"titleNView": {
+						// "type": "transparent",
+						"titleColor": "#fff"
+						// "backgroundColor": "#007AFF",
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "桔子精选",
+		"navigationBarBackgroundColor": "#FF80AB",
+		"backgroundColor": "#EFEFEF"
+	},
+	"tabBar": {
+		"color": "#444444",
+		"selectedColor": "#FF80AB",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/index-0.png",
+				"selectedIconPath": "static/index-1.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/hot/index",
+				"iconPath": "static/hot-0.png",
+				"selectedIconPath": "static/hot-1.png",
+				"text": "推荐"
+			},
+			{
+				"pagePath": "pages/tag/index",
+				"iconPath": "static/tag-0.png",
+				"selectedIconPath": "static/tag-1.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/center/index",
+				"iconPath": "static/center-0.png",
+				"selectedIconPath": "static/center-1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
