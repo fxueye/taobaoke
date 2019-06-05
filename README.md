@@ -1,4 +1,3 @@
-# 学习了一个月 使用uniapp 开发的一个淘宝客项目
 # 安装说明
 * http://uniapp.dcloud.io/ 
 * 下载HBuilderX 
